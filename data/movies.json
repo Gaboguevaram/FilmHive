@@ -1,0 +1,292 @@
+{
+  "movies": [
+    {
+      "id": "the-batman",
+      "title": "The Batman",
+      "year": 2022,
+      "genre": "Acción · Crimen",
+      "duration": "2h 56min",
+      "section": "cartelera",
+      "poster": "assets/images/Batman.gif",
+      "trailer": "mqqft2x_Aa4",
+      "synopsis": "Tras dos años acechando las calles como Batman, Bruce Wayne se adentra en las sombras de Gotham. Cuando un asesino apunta a la élite de la ciudad con una serie de macabras maquinaciones, un rastro de pistas crípticas lo arrastra a una investigación por los bajos fondos.",
+      "cast": ["Robert Pattinson", "Zoë Kravitz", "Paul Dano", "Jeffrey Wright", "Colin Farrell"],
+      "reviews": [
+        { "author": "cinefilo_gotham", "rating": 4, "text": "La fotografía es hipnótica: cada plano parece un cuadro noir. Pattinson borda un Batman atormentado y la banda sonora te mete en la piel del personaje. Solo le pesa la duración, casi tres horas se hacen largas." },
+        { "author": "marta_reviews", "rating": 3, "text": "Visualmente espectacular y con un tono detectivesco muy fresco para el personaje, pero el ritmo decae en el tercer acto y algunas subtramas se alargan de más. Aun así, el villano funciona." },
+        { "author": "noctambulo", "rating": 2.5, "text": "Se le nota la ambición, pero es demasiado lenta y oscura, a ratos cuesta ver lo que pasa en pantalla. La atmósfera es brutal, el guion no tanto." }
+      ],
+      "aiVerdict": {
+        "tldr": "Un noir de Gotham visualmente magnético con un Pattinson soberbio, lastrado por un metraje excesivo y un ritmo irregular.",
+        "pros": ["Fotografía y atmósfera", "Interpretación de Pattinson", "Banda sonora"],
+        "cons": ["Duración excesiva", "Ritmo del tercer acto"],
+        "score": 3.5,
+        "source": "seed"
+      }
+    },
+    {
+      "id": "finnick",
+      "title": "Finnick",
+      "year": 2022,
+      "genre": "Animación · Aventura",
+      "duration": "1h 20min",
+      "section": "cartelera",
+      "poster": "assets/images/Cartelera/C2.gif",
+      "trailer": null,
+      "synopsis": "Finnick es un travieso espíritu doméstico que se dedica a gastar bromas a las familias que se mudan a su casa. Todo cambia cuando llega Christine, una niña igual de testaruda que él, y juntos deberán resolver el misterio que amenaza a toda la ciudad.",
+      "cast": ["Animación", "Estudio CTB Film Company"],
+      "reviews": [
+        { "author": "papa_de_dos", "rating": 3.5, "text": "Entretenida para toda la familia, con un protagonista carismático y un humor que funciona con los peques. La animación es correcta aunque no llega al nivel de las grandes." },
+        { "author": "ani_maniac", "rating": 3, "text": "Simpática y con buen ritmo, ideal para una tarde con los niños. La historia es previsible pero el dúo protagonista tiene química y algún gag arranca risas." },
+        { "author": "critica_indie", "rating": 2.5, "text": "Cumple como cine familiar pero se olvida rápido. El diseño de Finnick es lo más memorable; el guion es de manual." }
+      ],
+      "aiVerdict": {
+        "tldr": "Cine familiar simpático y de buen ritmo con un protagonista carismático, pero de trama previsible y poco memorable.",
+        "pros": ["Protagonista carismático", "Apta para toda la familia", "Buen ritmo"],
+        "cons": ["Historia previsible", "Animación sin destacar"],
+        "score": 3,
+        "source": "seed"
+      }
+    },
+    {
+      "id": "greedy-people",
+      "title": "Greedy People",
+      "year": 2024,
+      "genre": "Comedia · Thriller",
+      "duration": "1h 43min",
+      "section": "cartelera",
+      "poster": "assets/images/GreedyPeople.gif",
+      "trailer": null,
+      "synopsis": "En un tranquilo pueblo costero, un policía novato y su veterano compañero se ven envueltos en un homicidio y en un maletín lleno de dinero. La codicia se desata en una comedia negra donde nadie es tan honrado como parece.",
+      "cast": ["Himesh Patel", "Lily James", "Joseph Gordon-Levitt", "Uzo Aduba"],
+      "reviews": [
+        { "author": "thriller_fan", "rating": 3.5, "text": "Un cóctel divertido de comedia negra y crimen coral. El reparto está en su salsa y hay giros que no ves venir. Se queda a medio camino entre lo gamberro y lo redondo." },
+        { "author": "laura_cine", "rating": 3, "text": "Entretiene y tiene diálogos afilados, pero quiere abarcar demasiadas tramas y algún personaje se queda desdibujado. Gordon-Levitt salva varias escenas." },
+        { "author": "elviscri", "rating": 2.5, "text": "Arranca fuerte pero pierde fuelle. La premisa da para más y el tono a veces no sabe si quiere ser comedia o thriller de verdad." }
+      ],
+      "aiVerdict": {
+        "tldr": "Comedia negra coral entretenida y bien interpretada que no termina de cuajar por querer abarcar demasiado.",
+        "pros": ["Reparto en forma", "Diálogos afilados", "Giros inesperados"],
+        "cons": ["Demasiadas tramas", "Tono irregular"],
+        "score": 3,
+        "source": "seed"
+      }
+    },
+    {
+      "id": "captain-america-brave-new-world",
+      "title": "Captain America: Brave New World",
+      "year": 2025,
+      "genre": "Acción · Ciencia ficción",
+      "duration": "1h 58min",
+      "section": "cartelera",
+      "poster": "assets/images/CapitanAmerica.gif",
+      "trailer": null,
+      "synopsis": "Sam Wilson, el nuevo Capitán América, se ve arrastrado a un incidente internacional tras reunirse con el recién elegido presidente. Deberá descubrir la trama que amenaza con sumir al mundo en el caos antes de que sea demasiado tarde.",
+      "cast": ["Anthony Mackie", "Harrison Ford", "Danny Ramirez", "Tim Blake Nelson"],
+      "reviews": [
+        { "author": "marvel_forever", "rating": 3, "text": "Mackie convence como Capitán América y hay secuencias de acción sólidas, pero la trama es funcional y se nota atada al universo Marvel. Harrison Ford aporta gravedad." },
+        { "author": "seri_es", "rating": 2.5, "text": "Correcta pero conformista. Cumple con lo esperado de un blockbuster de superhéroes sin arriesgar nada. El villano no termina de amenazar." },
+        { "author": "adri_pop", "rating": 3.5, "text": "Más disfrutable de lo que esperaba: buen ritmo, carisma del protagonista y un par de sorpresas. No reinventa nada pero engancha." }
+      ],
+      "aiVerdict": {
+        "tldr": "Un blockbuster de superhéroes competente y bien protagonizado que entretiene sin arriesgar ni destacar.",
+        "pros": ["Carisma de Anthony Mackie", "Acción sólida", "Presencia de Harrison Ford"],
+        "cons": ["Trama conformista", "Villano flojo"],
+        "score": 3,
+        "source": "seed"
+      }
+    },
+    {
+      "id": "armand",
+      "title": "Armand",
+      "year": 2024,
+      "genre": "Drama",
+      "duration": "1h 57min",
+      "section": "cartelera",
+      "poster": "assets/images/Cartelera/C5.gif",
+      "trailer": null,
+      "synopsis": "Una acusación entre dos niños de seis años convoca a sus madres a una reunión escolar que se convierte en un pulso psicológico. Renate Reinsve lidera un drama tenso e incómodo sobre la verdad, la culpa y las apariencias.",
+      "cast": ["Renate Reinsve", "Ellen Dorrit Petersen", "Endre Hellestveit"],
+      "reviews": [
+        { "author": "cannes_lover", "rating": 4.5, "text": "Un debut hipnótico. Reinsve está inmensa y la tensión se corta con cuchillo. La puesta en escena teatral y los silencios lo convierten en una experiencia magnética e incómoda a partes iguales." },
+        { "author": "drama_queen", "rating": 4, "text": "Intenso y perturbador, con una interpretación central para enmarcar. Se vuelve algo hermético en su tramo final, pero la fuerza de la dirección lo sostiene." },
+        { "author": "sala_oscura", "rating": 3.5, "text": "Ambicioso y con una actriz descomunal, aunque su apuesta formal tan radical puede dejar fuera a más de uno. Cine que exige paciencia y la recompensa." }
+      ],
+      "aiVerdict": {
+        "tldr": "Un drama psicológico tenso y radicalmente formal sostenido por una Renate Reinsve descomunal; exigente pero magnético.",
+        "pros": ["Interpretación de Reinsve", "Tensión y dirección", "Puesta en escena audaz"],
+        "cons": ["Tramo final hermético", "Formalismo que divide"],
+        "score": 4,
+        "source": "seed"
+      }
+    },
+    {
+      "id": "vermiglio",
+      "title": "Vermiglio",
+      "year": 2024,
+      "genre": "Drama",
+      "duration": "1h 59min",
+      "section": "cartelera",
+      "poster": "assets/images/Cartelera/C6.gif",
+      "trailer": null,
+      "synopsis": "En un pueblo de los Alpes italianos durante el último año de la Segunda Guerra Mundial, la llegada de un soldado desertor altera la vida de una numerosa familia. Un fresco íntimo y luminoso sobre el paso del tiempo y los secretos familiares.",
+      "cast": ["Tommaso Ragno", "Giuseppe De Domenico", "Martina Scrinzi"],
+      "reviews": [
+        { "author": "festival_addict", "rating": 4.5, "text": "Una joya de fotografía y sensibilidad. Cada plano de los Alpes es un poema y el retrato coral de la familia emociona sin subrayados. Cine pausado y bellísimo." },
+        { "author": "cine_arte", "rating": 4, "text": "Delicada, luminosa y de una honestidad rara. Su ritmo contemplativo pide entrega, pero quien la acepta sale conmovido. Merecido premio en Venecia." },
+        { "author": "impaciente77", "rating": 3, "text": "Preciosa de ver pero demasiado lenta para mi gusto. Se recrea tanto en la contemplación que en algún tramo se hace cuesta arriba." }
+      ],
+      "aiVerdict": {
+        "tldr": "Un drama de época delicado y visualmente bellísimo sobre los secretos de una familia alpina; contemplativo y conmovedor para quien acepte su calma.",
+        "pros": ["Fotografía deslumbrante", "Retrato coral emotivo", "Sensibilidad narrativa"],
+        "cons": ["Ritmo muy pausado"],
+        "score": 4,
+        "source": "seed"
+      }
+    },
+    {
+      "id": "la-hija-de-su-padre",
+      "title": "La hija de su padre",
+      "year": 2023,
+      "genre": "Drama · Comedia",
+      "duration": "1h 30min",
+      "section": "estrenos",
+      "poster": "assets/images/Estrenos/E1.gif",
+      "trailer": null,
+      "synopsis": "Étienne cría solo a su hija Rosa desde que la madre desapareció el día del nacimiento. Dieciséis años después, la reaparición de ella obliga a padre e hija a replantearse el vínculo que los une en una tierna crónica sobre crecer.",
+      "cast": ["Nahuel Pérez Biscayart", "Céleste Brunnquell", "Maud Wyler"],
+      "reviews": [
+        { "author": "franco_films", "rating": 4, "text": "Tierna y luminosa sin caer en lo sentimental. La química entre padre e hija es el corazón de la película y Biscayart está estupendo. Un pequeño encanto." },
+        { "author": "sentimental", "rating": 3.5, "text": "Emotiva y con mucho encanto, aunque avanza a saltos temporales que a veces desconciertan. El final compensa el trayecto." },
+        { "author": "objetivo_cine", "rating": 3, "text": "Agradable y bien interpretada, pero se queda en lo menor. Le falta un punto de ambición para dejar poso." }
+      ],
+      "aiVerdict": {
+        "tldr": "Un drama familiar tierno y bien interpretado sobre la paternidad, encantador aunque de alcance modesto.",
+        "pros": ["Química entre los protagonistas", "Tono luminoso", "Interpretaciones"],
+        "cons": ["Estructura a saltos", "Ambición limitada"],
+        "score": 3.5,
+        "source": "seed"
+      }
+    },
+    {
+      "id": "les-fantomes",
+      "title": "Les Fantômes",
+      "year": 2024,
+      "genre": "Thriller · Espionaje",
+      "duration": "1h 46min",
+      "section": "estrenos",
+      "poster": "assets/images/Estrenos/E2.gif",
+      "trailer": null,
+      "synopsis": "Hamid forma parte de una red clandestina que rastrea por Europa a un criminal de guerra sirio. Cuando cree reconocerlo en Estrasburgo, se lanza a una vigilancia obsesiva en este implacable thriller de espionaje sobre la memoria y la justicia.",
+      "cast": ["Adam Bessa", "Tawfeek Barhom", "Julia Franz Richter"],
+      "reviews": [
+        { "author": "espia_frio", "rating": 4, "text": "Un thriller sobrio y tenso que atrapa desde el minuto uno. Adam Bessa transmite la obsesión de su personaje con la mirada. Nada de artificios, pura eficacia." },
+        { "author": "gemma_v", "rating": 4, "text": "Inteligente y con un trasfondo político potente. Mantiene la tensión sin recurrir a la acción fácil. De lo mejor del cine de espías reciente." },
+        { "author": "palomitero", "rating": 3, "text": "Muy bien hecha pero fría y austera; a quien busque adrenalina le puede resultar lenta. A mí me tuvo enganchado." }
+      ],
+      "aiVerdict": {
+        "tldr": "Un thriller de espionaje sobrio, tenso y políticamente afilado, con un Adam Bessa magnético; austero por elección.",
+        "pros": ["Tensión sostenida", "Interpretación de Bessa", "Trasfondo político"],
+        "cons": ["Tono frío y austero"],
+        "score": 3.5,
+        "source": "seed"
+      }
+    },
+    {
+      "id": "sauvages",
+      "title": "Sauvages",
+      "year": 2024,
+      "genre": "Animación",
+      "duration": "1h 27min",
+      "section": "estrenos",
+      "poster": "assets/images/Estrenos/E3.gif",
+      "trailer": null,
+      "synopsis": "En Borneo, una niña acoge a un bebé orangután huérfano mientras la deforestación amenaza la selva. Del director de 'La vida de Calabacín', una fábula stop-motion sobre la naturaleza, la infancia y la resistencia.",
+      "cast": ["Animación stop-motion", "Dirección de Claude Barras"],
+      "reviews": [
+        { "author": "stopmotion_es", "rating": 4.5, "text": "Preciosa y necesaria. El stop-motion tiene una calidez artesanal única y el mensaje ecologista llega sin sermonear. Barras vuelve a emocionar." },
+        { "author": "familia_cine", "rating": 4, "text": "Tierna, bella y con alma. Los peques la disfrutan y los adultos salen tocados. La factura visual es exquisita." },
+        { "author": "critico_seco", "rating": 3.5, "text": "Visualmente soberbia y bienintencionada, aunque el discurso ecologista por momentos se vuelve algo evidente. Aun así, conmueve." }
+      ],
+      "aiVerdict": {
+        "tldr": "Una fábula stop-motion cálida y visualmente exquisita con un mensaje ecologista que emociona, pese a subrayarlo a veces.",
+        "pros": ["Animación artesanal exquisita", "Emotiva y con alma", "Apta para todas las edades"],
+        "cons": ["Mensaje algo evidente"],
+        "score": 4,
+        "source": "seed"
+      }
+    },
+    {
+      "id": "bodegon-con-fantasmas",
+      "title": "Bodegón con fantasmas",
+      "year": 2024,
+      "genre": "Comedia negra",
+      "duration": "1h 25min",
+      "section": "estrenos",
+      "poster": "assets/images/Estrenos/E4.gif",
+      "trailer": null,
+      "synopsis": "En un pueblo de la España rural, los muertos regresan como fantasmas para cerrar asuntos pendientes con los vivos. Una tragicomedia costumbrista y surrealista sobre la vida, la muerte y los rencores de aldea.",
+      "cast": ["Reparto coral", "Dirección de Enrique Buleo"],
+      "reviews": [
+        { "author": "sitges_fan", "rating": 4, "text": "Ácida, original y muy española. Un humor negro que no da tregua y una estética teatral que la hace única. De lo más fresco del cine patrio." },
+        { "author": "risas_negras", "rating": 3.5, "text": "Divertidísima y gamberra, con un costumbrismo surrealista que engancha. Algún sketch funciona mejor que otro, pero el conjunto tiene mucha personalidad." },
+        { "author": "espectador_medio", "rating": 3, "text": "Muy personal y con gracia, aunque su humor tan particular no es para todos los públicos. A quien conecte le encantará." }
+      ],
+      "aiVerdict": {
+        "tldr": "Una comedia negra costumbrista ácida y con muchísima personalidad; un humor tan particular que enamorará a quien conecte con él.",
+        "pros": ["Humor negro original", "Estética teatral única", "Personalidad propia"],
+        "cons": ["Humor no apto para todos", "Irregularidad entre escenas"],
+        "score": 3.5,
+        "source": "seed"
+      }
+    },
+    {
+      "id": "levante",
+      "title": "Levante",
+      "year": 2024,
+      "genre": "Drama",
+      "duration": "1h 38min",
+      "section": "estrenos",
+      "poster": "assets/images/Estrenos/E5.gif",
+      "trailer": null,
+      "synopsis": "Sofía, joven jugadora de un equipo de fútbol callejero en Brasil, descubre que está embarazada mientras lucha por su futuro deportivo. Un drama vibrante y colectivo sobre el cuerpo, la libertad y la sororidad.",
+      "cast": ["Ayomi Domenica", "Rúbia Bernasci", "Grace Passô"],
+      "reviews": [
+        { "author": "brasil_cine", "rating": 4, "text": "Enérgica y honesta, con una fuerza colectiva que contagia. El pulso documental le da verdad y la protagonista es un descubrimiento. Cine social del bueno." },
+        { "author": "activa_cine", "rating": 4, "text": "Urgente y necesaria, aborda temas espinosos sin bajar la guardia ni caer en el panfleto. La energía del fútbol femenino la atraviesa toda." },
+        { "author": "neutral_view", "rating": 3, "text": "Potente en su mensaje aunque irregular en el ritmo. Hay escenas magníficas junto a otras que se alargan. La intención se impone." }
+      ],
+      "aiVerdict": {
+        "tldr": "Un drama social brasileño enérgico y honesto sobre cuerpo y libertad, con una protagonista revelación; potente aunque irregular en el ritmo.",
+        "pros": ["Fuerza y energía colectiva", "Protagonista revelación", "Tema urgente"],
+        "cons": ["Ritmo irregular"],
+        "score": 3.5,
+        "source": "seed"
+      }
+    },
+    {
+      "id": "maria",
+      "title": "Maria",
+      "year": 2024,
+      "genre": "Drama · Biografía",
+      "duration": "2h 04min",
+      "section": "estrenos",
+      "poster": "assets/images/Estrenos/E6.gif",
+      "trailer": null,
+      "synopsis": "Los últimos días de Maria Callas en el París de los años 70, entre el recuerdo de su gloria en los escenarios y la fragilidad de su retiro. Pablo Larraín cierra su trilogía sobre mujeres icónicas con Angelina Jolie como la diva de la ópera.",
+      "cast": ["Angelina Jolie", "Pierfrancesco Favino", "Alba Rohrwacher", "Kodi Smit-McPhee"],
+      "reviews": [
+        { "author": "opera_prima", "rating": 4, "text": "Jolie se entrega por completo y Larraín envuelve su declive en una elegancia melancólica preciosa. La puesta en escena y el vestuario son de gala." },
+        { "author": "cine_diva", "rating": 3.5, "text": "Bellísima y con una interpretación valiente, aunque su estructura fragmentada y onírica puede distanciar. Más un retrato de estados de ánimo que un biopic al uso." },
+        { "author": "sobrio_critico", "rating": 3, "text": "Elegante hasta la médula pero algo frío y ensimismado. Admiro la ambición formal, echo en falta más emoción directa." }
+      ],
+      "aiVerdict": {
+        "tldr": "Un biopic elegante y melancólico de Maria Callas con una Angelina Jolie entregada; formalmente exquisito aunque frío y fragmentado.",
+        "pros": ["Interpretación de Jolie", "Elegancia visual y vestuario", "Dirección de Larraín"],
+        "cons": ["Tono frío y distante", "Estructura fragmentada"],
+        "score": 3.5,
+        "source": "seed"
+      }
+    }
+  ]
+}
