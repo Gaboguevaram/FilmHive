@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<foros>
+    <foro>
+        <nombre>Mejores personajes de The Batman</nombre>
+        <tematica>Rankings</tematica>
+        <posts>2</posts>
+        <miembros>4</miembros>
+    </foro>
+    <foro>
+        <nombre>Cómo aprovechar todas las funcionalidades de FH</nombre>
+        <tematica>Ayuda</tematica>
+        <posts>92</posts>
+        <miembros>32</miembros>
+    </foro>
+    <foro>
+        <nombre>Película del día (GUÍA)</nombre>
+        <tematica>Información</tematica>
+        <posts>67</posts>
+        <miembros>5</miembros>
+    </foro>
+    <foro>
+        <nombre>Mejores películas del siglo XX</nombre>
+        <tematica>Debate</tematica>
+        <posts>14</posts>
+        <miembros>8</miembros>
+    </foro>
+    <foro>
+        <nombre>Final de The Batman explicado</nombre>
+        <tematica>Información</tematica>
+        <posts>232</posts>
+        <miembros>100</miembros>
+    </foro>
+</foros>

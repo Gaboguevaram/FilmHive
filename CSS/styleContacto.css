@@ -1,0 +1,14 @@
+.multiCol{
+    padding: 20px;
+    column-count: 3;   
+}
+
+@media (max-width: 1200px) {
+    .multiCol{
+        text-align: center;
+        column-count: 1;
+    }
+    .multiCol p{
+        text-align: center;
+    }
+}
