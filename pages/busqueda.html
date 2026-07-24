@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Buscar películas · FilmHive</title>
+  <meta name="description"
+    content="Busca entre el catálogo de FilmHive por título, género o sinopsis, y ordena por nota, año o título.">
+  <link rel="icon" href="../assets/images/FilmHive.gif">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/layout.css">
+  <link rel="stylesheet" href="../css/components.css">
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+  <div id="site-header"></div>
+
+  <main id="main" class="container">
+    <h1 class="page-title">Catálogo</h1>
+
+    <form class="filters" id="search-form" role="search">
+      <div class="field search-input">
+        <label class="visually-hidden" for="search-input">Buscar por título, género o sinopsis</label>
+        <input type="search" id="search-input" placeholder="Buscar por título, género o sinopsis…" autocomplete="off">
+      </div>
+
+      <div class="chip-group" role="group" aria-label="Filtrar por sección">
+        <button class="chip" type="button" data-section="todas" aria-pressed="true">Todas</button>
+        <button class="chip" type="button" data-section="cartelera" aria-pressed="false">Cartelera</button>
+        <button class="chip" type="button" data-section="estrenos" aria-pressed="false">Estrenos</button>
+      </div>
+
+      <div class="field">
+        <label class="visually-hidden" for="sort-select">Ordenar por</label>
+        <select id="sort-select">
+          <option value="nota">Ordenar por nota</option>
+          <option value="anio">Ordenar por año</option>
+          <option value="titulo">Ordenar por título</option>
+        </select>
+      </div>
+    </form>
+
+    <p class="result-count" id="result-count" role="status">Cargando…</p>
+    <ul class="result-list" id="result-list"></ul>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="../js/site.js"></script>
+  <script src="../js/data.js"></script>
+  <script src="../js/catalog.js"></script>
+</body>
+
+</html>

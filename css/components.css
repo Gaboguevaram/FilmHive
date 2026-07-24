@@ -193,7 +193,9 @@
   font-size: 0.9rem;
 }
 
-/* ---------- Interactive rating (user vote) ---------- */
+/* ---------- Interactive rating (user vote) ----------
+   Built on native radio inputs so keyboard support (arrow keys, focus,
+   form semantics) comes for free; the labels are the visible stars. */
 .rate {
   display: inline-flex;
   gap: var(--space-1);
@@ -202,10 +204,7 @@
   margin: 0;
 }
 
-.rate button {
-  background: none;
-  border: 0;
-  padding: 2px;
+.rate label {
   font-size: 1.7rem;
   line-height: 1;
   color: #55555f;
@@ -213,12 +212,20 @@
   transition: color 0.1s ease, transform 0.1s ease;
 }
 
-.rate button:hover {
+.rate label:hover {
   transform: scale(1.15);
+  color: var(--amber-strong);
 }
 
-.rate button.is-on {
+.rate label.is-on {
   color: var(--amber);
+}
+
+/* Focus ring follows the visually-hidden radio onto its star label */
+.rate input:focus-visible + label {
+  outline: 3px solid var(--focus);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
 }
 
 .rate-status {
