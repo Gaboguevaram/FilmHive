@@ -7,8 +7,5 @@
     "dev": "vercel dev",
     "seed": "node scripts/seed-verdicts.mjs"
   },
-  "engines": {
-    "node": "20.x"
-  },
   "license": "MIT"
 }
