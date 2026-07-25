@@ -4,8 +4,8 @@
 
 FilmHive started as a university project (Web Application Design, USC) and was rebuilt from the ground up into a deployable, polished portfolio piece. Browse the catalogue, rate films and leave reviews — and let the AI read every review of a title and synthesise it into a verdict with pros, cons and a suggested score.
 
-<!-- Replace this with your deployed URL once the site is live on Netlify -->
-**▶ Live demo:** _add your Netlify URL here_ · **License:** MIT · **Stack:** Vanilla JS · Netlify Functions · Google Gemini
+<!-- Replace this with your deployed URL once the site is live on Vercel -->
+**▶ Live demo:** _add your Vercel URL here_ · **License:** MIT · **Stack:** Vanilla JS · Vercel Functions · Google Gemini
 
 ---
 
@@ -36,7 +36,7 @@ FilmHive started as a university project (Web Application Design, USC) and was r
 ## 🧠 How the AI Verdict works
 
 ```
-Browser ──POST /api/verdict──▶ Netlify Function ──▶ Google Gemini
+Browser ──POST /api/verdict──▶ Vercel Function ──▶ Google Gemini
   (title + reviews)            (GEMINI_API_KEY,          (returns
                                 server-side only)     tldr/pros/cons/score)
   ◀────────── JSON verdict ─────────────────────────────────┘
@@ -45,7 +45,7 @@ If the endpoint is unavailable (no key / rate limit / opened as a static file),
 the page falls back to the cached verdict shipped in data/movies.json.
 ```
 
-The API key **never reaches the browser** — it lives only in the serverless function's environment variable. The same prompt used live also seeds the offline cache via `npm run seed`, so all AI content is genuinely Gemini-generated.
+The API key **never reaches the browser** — it lives only in the serverless function's environment variable. On Vercel, any file in `/api` is automatically a serverless function reachable at that path, so the client's `/api/verdict` call works with no routing config. The same prompt used live also seeds the offline cache via `npm run seed`, so all AI content is genuinely Gemini-generated.
 
 ---
 
@@ -56,8 +56,8 @@ The API key **never reaches the browser** — it lives only in the serverless fu
 | Markup / styles | Semantic HTML5, modern CSS (custom properties, Grid, Flexbox) |
 | Behaviour | Vanilla JavaScript (ES5-safe, no build step) |
 | Data | Static JSON (`data/movies.json`, `data/foros.json`) + `localStorage` |
-| AI | Google Gemini via a Netlify serverless function (REST, no npm deps) |
-| Hosting | Netlify (static site + Functions) |
+| AI | Google Gemini via a Vercel serverless function (REST, no npm deps) |
+| Hosting | Vercel (static site + Functions) |
 
 ---
 
@@ -75,11 +75,11 @@ python -m http.server 8000
 
 ### 2. Run with the live AI Verdict
 
-Requires the [Netlify CLI](https://docs.netlify.com/cli/get-started/) and a free [Google Gemini API key](https://aistudio.google.com/apikey).
+Requires the [Vercel CLI](https://vercel.com/docs/cli) (`npm i -g vercel`) and a free [Google Gemini API key](https://aistudio.google.com/apikey).
 
 ```bash
 cp .env.example .env          # then put your key in .env
-npm run dev                   # netlify dev — serves the site + /api/verdict
+npm run dev                   # vercel dev — serves the site + /api/verdict
 ```
 
 ### 3. Reseed the cached verdicts (optional)
@@ -95,9 +95,9 @@ GEMINI_API_KEY=your_key npm run seed
 ## 🌐 Deploy (free)
 
 1. Push this repo to GitHub.
-2. In [Netlify](https://app.netlify.com/), **Add new site → Import from GitHub** and pick the repo. No build command is needed; `netlify.toml` already sets the publish directory and the `/api/*` redirect.
-3. In **Site settings → Environment variables**, add `GEMINI_API_KEY` (and optionally `GEMINI_MODEL`).
-4. Deploy, then paste the resulting URL into the **Live demo** line above.
+2. In [Vercel](https://vercel.com/new), **Add New → Project** and import the repo. Framework preset **Other**; there is no build step — static files are served from the root and `api/verdict.js` becomes the `/api/verdict` function automatically.
+3. In **Project Settings → Environment Variables**, add `GEMINI_API_KEY` (and optionally `GEMINI_MODEL`), then redeploy so the function picks it up.
+4. Paste the resulting `*.vercel.app` URL into the **Live demo** line above.
 
 The public demo runs on Gemini's free tier; if the rate limit is hit, it gracefully falls back to the cached verdict.
 
@@ -112,9 +112,9 @@ css/                    base (tokens/reset) · layout · components
 js/                     site (shared chrome) · data (helpers) · catalog · movie · foros · form
 data/                   movies.json · foros.json
 assets/images/          posters, logo, icons
-netlify/functions/      verdict.js (endpoint) · _gemini.js (shared helper)
+api/                    verdict.js (the /api/verdict serverless function)
+lib/                    gemini.js (shared prompt + REST caller)
 scripts/                seed-verdicts.mjs
-netlify.toml            deploy config
 ```
 
 See [`docs/GUIA.md`](docs/GUIA.md) for a detailed walkthrough (in Spanish) of the architecture and what changed from the original.

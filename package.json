@@ -2,13 +2,13 @@
   "name": "filmhive",
   "version": "2.0.0",
   "private": true,
-  "description": "FilmHive — a movie-review site with AI-generated verdicts (vanilla JS + a Gemini serverless function).",
+  "description": "FilmHive — a movie-review site with AI-generated verdicts (vanilla JS + a Vercel serverless function).",
   "scripts": {
-    "dev": "netlify dev",
+    "dev": "vercel dev",
     "seed": "node scripts/seed-verdicts.mjs"
   },
   "engines": {
-    "node": ">=18"
+    "node": "20.x"
   },
   "license": "MIT"
 }
