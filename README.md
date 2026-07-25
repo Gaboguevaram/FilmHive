@@ -117,8 +117,6 @@ lib/                    gemini.js (shared prompt + REST caller)
 scripts/                seed-verdicts.mjs
 ```
 
-See [`docs/GUIA.md`](docs/GUIA.md) for a detailed walkthrough (in Spanish) of the architecture and what changed from the original.
-
 ---
 
 ## 📚 What I learned

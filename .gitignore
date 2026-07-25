@@ -3,6 +3,9 @@
 .env.*
 !.env.example
 
+# Private local docs (kept on disk, not tracked)
+docs/GUIA.md
+
 # Dependencies
 node_modules/
 
