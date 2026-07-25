@@ -1,0 +1,25 @@
+# Secrets / environment
+.env
+.env.*
+!.env.example
+
+# Private local docs (kept on disk, not tracked)
+docs/GUIA.md
+
+# Dependencies
+node_modules/
+
+# Vercel
+.vercel/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+.idea/
+.vscode/
+
+# Logs
+npm-debug.log*
+*.log

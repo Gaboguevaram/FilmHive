@@ -1,0 +1,14 @@
+{
+  "foros": [
+    { "nombre": "Mejores personajes de The Batman", "tematica": "Rankings", "posts": 2, "miembros": 4 },
+    { "nombre": "Cómo aprovechar todas las funcionalidades de FilmHive", "tematica": "Ayuda", "posts": 92, "miembros": 32 },
+    { "nombre": "Película del día (GUÍA)", "tematica": "Información", "posts": 67, "miembros": 5 },
+    { "nombre": "Mejores películas del siglo XX", "tematica": "Debate", "posts": 14, "miembros": 8 },
+    { "nombre": "Final de The Batman explicado", "tematica": "Información", "posts": 232, "miembros": 100 },
+    { "nombre": "¿Sobrevalorada o infravalorada? Debate semanal", "tematica": "Debate", "posts": 48, "miembros": 21 },
+    { "nombre": "Recomendaciones de cine de autor", "tematica": "Debate", "posts": 130, "miembros": 57 },
+    { "nombre": "Ranking de bandas sonoras", "tematica": "Rankings", "posts": 39, "miembros": 18 },
+    { "nombre": "Dudas sobre el sistema de valoraciones", "tematica": "Ayuda", "posts": 11, "miembros": 6 },
+    { "nombre": "Estrenos de la semana", "tematica": "Información", "posts": 74, "miembros": 40 }
+  ]
+}

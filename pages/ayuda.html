@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ayuda · FilmHive</title>
+  <meta name="description"
+    content="¿Necesitas ayuda con FilmHive? Rellena el formulario de soporte y te responderemos lo antes posible.">
+  <link rel="icon" href="../assets/images/FilmHive.gif">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/layout.css">
+  <link rel="stylesheet" href="../css/components.css">
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+  <div id="site-header"></div>
+
+  <main id="main" class="container">
+    <h1 class="page-title">¿Necesitas ayuda?</h1>
+    <p class="prose" style="margin-bottom:var(--space-6)">
+      Cuéntanos qué ha pasado y te responderemos lo antes posible. Los campos marcados
+      con <abbr title="obligatorio">*</abbr> son obligatorios.
+    </p>
+
+    <form class="stack" id="help-form" novalidate>
+      <div class="field">
+        <label for="nombre">Nombre y apellidos <abbr title="obligatorio">*</abbr></label>
+        <input type="text" id="nombre" name="nombre" required autocomplete="name">
+      </div>
+
+      <div class="field">
+        <label for="correo">Correo electrónico <abbr title="obligatorio">*</abbr></label>
+        <input type="email" id="correo" name="correo" required autocomplete="email">
+      </div>
+
+      <div class="field">
+        <label for="asunto">Asunto <abbr title="obligatorio">*</abbr></label>
+        <select id="asunto" name="asunto" required>
+          <option value="" disabled selected>Selecciona una opción</option>
+          <option value="problema_cuenta">Problema con mi cuenta</option>
+          <option value="contenido">Problema con el contenido</option>
+          <option value="sugerencia">Sugerencia</option>
+          <option value="otro">Otro</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="mensaje">Mensaje <abbr title="obligatorio">*</abbr></label>
+        <textarea id="mensaje" name="mensaje" rows="6" required
+          placeholder="El motivo de mi consulta es…"></textarea>
+      </div>
+
+      <div class="checkbox-row">
+        <input type="checkbox" id="privacidad" name="privacidad" required>
+        <label for="privacidad">
+          Acepto la política de privacidad <abbr title="obligatorio">*</abbr>
+        </label>
+      </div>
+
+      <div class="form-actions">
+        <button class="btn btn-primary" type="submit">Enviar</button>
+        <button class="btn btn-ghost" type="reset">Limpiar</button>
+      </div>
+
+      <p class="form-note" id="help-feedback" role="status" hidden></p>
+    </form>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="../js/site.js"></script>
+  <script src="../js/form.js"></script>
+</body>
+
+</html>

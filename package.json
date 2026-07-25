@@ -1,0 +1,14 @@
+{
+  "name": "filmhive",
+  "version": "2.0.0",
+  "private": true,
+  "description": "FilmHive — a movie-review site with AI-generated verdicts (vanilla JS + a Vercel serverless function).",
+  "scripts": {
+    "dev": "vercel dev",
+    "seed": "node scripts/seed-verdicts.mjs"
+  },
+  "engines": {
+    "node": "20.x"
+  },
+  "license": "MIT"
+}

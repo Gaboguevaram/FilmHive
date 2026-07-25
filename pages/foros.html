@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Foros · FilmHive</title>
+  <meta name="description"
+    content="Foros de la comunidad FilmHive: debates, rankings, ayuda e información sobre cine y series.">
+  <link rel="icon" href="../assets/images/FilmHive.gif">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/layout.css">
+  <link rel="stylesheet" href="../css/components.css">
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+  <div id="site-header"></div>
+
+  <main id="main" class="container">
+    <h1 class="page-title">Foros</h1>
+
+    <div class="foros-controls">
+      <div class="field search-input" style="flex:1 1 260px">
+        <label class="visually-hidden" for="foros-search">Buscar foro por nombre</label>
+        <input type="search" id="foros-search" placeholder="Buscar foro…" autocomplete="off">
+      </div>
+      <div class="field">
+        <label class="visually-hidden" for="foros-tematica">Filtrar por temática</label>
+        <select id="foros-tematica">
+          <option value="">Todas las temáticas</option>
+        </select>
+      </div>
+      <p class="result-count" id="foros-count" role="status" style="margin:0"></p>
+    </div>
+
+    <div class="table-wrap">
+      <table class="foros">
+        <caption class="visually-hidden">Listado de foros de la comunidad</caption>
+        <thead>
+          <tr>
+            <th scope="col">Nombre</th>
+            <th scope="col">Temática</th>
+            <th scope="col">Posts</th>
+            <th scope="col">Miembros</th>
+          </tr>
+        </thead>
+        <tbody id="foros-body">
+          <tr>
+            <td colspan="4">Cargando foros…</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p style="margin-top:var(--space-5)">
+      <a class="btn btn-outline" href="sin-crear.html">Crear un foro</a>
+    </p>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="../js/site.js"></script>
+  <script src="../js/data.js"></script>
+  <script src="../js/foros.js"></script>
+</body>
+
+</html>
