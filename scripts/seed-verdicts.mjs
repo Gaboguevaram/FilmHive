@@ -46,7 +46,7 @@ async function main() {
     process.exit(1);
   }
 
-  const model = process.env.GEMINI_MODEL || "gemini-2.0-flash";
+  const model = process.env.GEMINI_MODEL || "gemini-2.5-flash";
   const db = JSON.parse(readFileSync(moviesPath, "utf8"));
   console.log(`Sembrando ${db.movies.length} veredictos con ${model}…\n`);
 
