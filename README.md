@@ -4,7 +4,6 @@
 
 FilmHive started as a university project (Web Application Design, USC) and was rebuilt from the ground up into a deployable, polished portfolio piece. Browse the catalogue, rate films and leave reviews — and let the AI read every review of a title and synthesise it into a verdict with pros, cons and a suggested score.
 
-<!-- Replace this with your deployed URL once the site is live on Vercel -->
 **▶ Live demo:** film-hive.vercel.app · **License:** MIT · **Stack:** Vanilla JS · Vercel Functions · Google Gemini
 
 ---
